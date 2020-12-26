@@ -1,0 +1,40 @@
+html, body {
+    height: 80%;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: monospace;
+  }
+
+  
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+  
+
+  #container {
+    margin: auto;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 520px) and (min-height: 300px) {
+    #container { 
+      border: 1px dotted black;
+      padding: 3em 10em 3em 10em;
+    }
+  }
